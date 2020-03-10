@@ -9,8 +9,11 @@ vex.defaultOptions.className = 'vex-theme-flat-attack';
 
 new Glider(document.querySelector('.glider'), {
     slidesToScroll: 1,
-    slidesToShow: 2,
+    slidesToShow: 1,
     draggable: true,
+    rewind: true,
+    scrollLock: true,
+    scrollLockDelay: 50,
     dots: '.dots',
     arrows: {
       prev: '.glider-prev',

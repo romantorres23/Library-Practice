@@ -10,3 +10,11 @@ a {
     color: rgb(0, 77, 129);
 }
 
+.glider-contain {
+    margin-bottom: 50px;
+}
+
+.glider-prev, .glider-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
