@@ -1,6 +1,23 @@
 // vex.defaultOptions.className = 'vex-theme-default';
 vex.defaultOptions.className = 'vex-theme-flat-attack';
 
+// window.addEventListener('load', function(){
+//     new Glider(document.querySelector('.glider'), {
+//       setting-name: setting-value
+//     });
+//   });
+
+new Glider(document.querySelector('.glider'), {
+    slidesToScroll: 1,
+    slidesToShow: 2,
+    draggable: true,
+    dots: '.dots',
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
+
 // // Basic Test Code
 // vex.dialog.alert('Thanks for checking out vex!');
 
